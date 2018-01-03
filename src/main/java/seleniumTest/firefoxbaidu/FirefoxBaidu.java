@@ -21,7 +21,7 @@ public class FirefoxBaidu {
 
         webDriver.get("https://www.baidu.com/");
         WebElement baiduInput = webDriver.findElement(By.id("kw"));
-        baiduInput.sendKeys("hello world!");
+        baiduInput.sendKeys("hello world!hello world!hello world!hello world!hello world!hello world!");
         WebElement baiduyixiaButton = webDriver.findElement(By.id("su"));
         baiduyixiaButton.click();
         try {

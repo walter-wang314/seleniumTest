@@ -14,7 +14,7 @@ public class ChromeBaidu {
         WebDriver webDriver = new ChromeDriver();
         webDriver.get("https://www.baidu.com/");
         WebElement baiduInput = webDriver.findElement(By.id("kw"));
-        baiduInput.sendKeys("hello");
+        baiduInput.sendKeys("hellohellohellohellohellohellohellohellohellohellohellohello");
         WebElement baiduyixiaButton = webDriver.findElement(By.id("su"));
         baiduyixiaButton.click();
         try {
